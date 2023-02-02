@@ -36,7 +36,7 @@ The LVDC had 18 possible instructions:
 
 | Instruction  | OPCODE | Operation |
 |:------------:|:------:|-----------|
-| HOP          |  000  |  Jump instruction. Address is given by the operand address. |
+| HOP          |  0000  |  Jump instruction. Address is given by the operand address. |
 | MPY          |  0001  |  The contents of the memory location specified by the operand address are multiplied by the accumulator contents. |
 | SUB          |  0010  |  Subtract the content of the memory in the operand address from the accumulator, and store the value in the accumulator. |
 | DIV          |  0011  |  The contents of the accumulator are divided by the contents of the register specified by the operand address. |
